@@ -3,6 +3,10 @@
 	<head> 
 		<meta charset="utf-8">
 		<title>wardhaus</title>
+
+		<!-- FONTS -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
+
 	</head>
 	<body id="body">
 	
@@ -16,6 +20,25 @@
 		</div>
 
 		<div id="hero">
+			<div class="user-item">
+				<a style="width: 200px" href="http://www.christinesaul.com">
+					<img class="user-img" src="assets/christine_headshot.png" alt="Christine Headshot">
+				</a>
+					<br/>
+				<a class="poppins-reg title">Christine Ward</a>
+					<br/>
+				<a class="poppins-reg sub-title">Graphic Designer</a>
+			</div>
+
+			<div class="user-item">
+				<a style="width: 200px" href="https://codyward.itch.io">
+					<img class="user-img" src="assets/cody_headshot.png" alt="Cody Headshot">
+				</a>
+					<br/>
+				<a class="poppins-reg title">Cody Ward</a>
+					<br/>
+				<a class="poppins-reg sub-title">Software & Game Developer</a>
+			</div>
 		</div>
 
 		<div>
@@ -26,14 +49,39 @@
 </html>
 
 <style type="text/css">
+
+	.poppins-reg
+	{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400
+	}
+
+	.title
+	{
+		font-size: 40px;
+		line-height: 50px;
+		letter-spacing: 1%;
+		color: white;
+		text-transform: lowercase;
+	}
+
+	.sub-title
+	{
+		font-size: 18px;
+		line-height: 28px;
+		letter-spacing: 1%;
+		color: white;
+		text-transform: uppercase;
+	}
+
 	#body
 	{
-		background-color: magenta/*#3A38AF*/;
+		background-color: #3A38AF;
 	}
 
 	#header
 	{
-		height: 100px;
+		height: 85px;
 		padding-top: 30px;
 	}
 
@@ -41,6 +89,30 @@
 	{
 		height:100%;
 		padding-left: 30px;
+	}
+
+	#hero
+	{
+		display: flex;
+		height: 400px;
+		align-items: center;
+	}
+
+	.user-item
+	{
+		flex-grow: 1;
+		text-align: center;
+	}
+
+	.user-img
+	{
+		display: flex;
+		justify-content: center;
+		width: 200px;
+		height: 200px;
+	    border-radius:50%;
+	    box-shadow: -20px 20px 60px 0px #000023;
+	    margin: 0 auto
 	}
 
 	#footer_logo
