@@ -21,8 +21,8 @@
 
 		<div id="hero">
 			<div class="user-item">
-				<a style="width: 200px" href="http://www.christinesaul.com">
-					<img class="user-img" src="assets/christine_headshot.png" alt="Christine Headshot">
+				<a class="user-img" href="http://www.christinesaul.com">
+					<img class="user-img user-img-shadow" src="assets/christine_headshot.png" alt="Christine Headshot">
 				</a>
 					<br/>
 				<a class="poppins-reg title">Christine Ward</a>
@@ -31,8 +31,8 @@
 			</div>
 
 			<div class="user-item">
-				<a style="width: 200px" href="https://codyward.itch.io">
-					<img class="user-img" src="assets/cody_headshot.png" alt="Cody Headshot">
+				<a class="user-img" href="https://codyward.itch.io">
+					<img class="user-img user-img-shadow" src="assets/cody_headshot.png" alt="Cody Headshot">
 				</a>
 					<br/>
 				<a class="poppins-reg title">Cody Ward</a>
@@ -94,7 +94,6 @@
 	#hero
 	{
 		display: flex;
-		height: 400px;
 		align-items: center;
 	}
 
@@ -102,24 +101,61 @@
 	{
 		flex-grow: 1;
 		text-align: center;
+		margin-top: 50px;
 	}
 
 	.user-img
 	{
 		display: flex;
 		justify-content: center;
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
 	    border-radius:50%;
-	    box-shadow: -20px 20px 60px 0px #000023;
 	    margin: 0 auto
+	}
+
+	.user-img-shadow
+	{
+	    box-shadow: -20px 20px 60px 0px #000023;
 	}
 
 	#footer_logo
 	{
-		position: absolute; /* absolute so we can pin to page */
-		left: 0px;
-		bottom:0px; 		/* keep pinned to the bottom */
-		width: 100%;
+		position: fixed;
+		bottom: 0;
+		left: -8px;
+		width: 105%;
+		z-index: -1;
+	}
+
+	@media screen and (max-width: 768px) 
+	{
+		#hero 
+		{
+			flex-direction: column;
+		}
+
+		.user-img
+		{
+			width: 100px;
+			height: 100px;
+		}
+
+		#footer_logo
+		{
+			width: 205%;
+		}
+
+		.title
+		{
+			font-size: 30px;
+			line-height: 40px;
+		}
+
+		.sub-title
+		{
+			font-size: 12px;
+			line-height: 18px;
+		}
 	}
 </style>
