@@ -1,5 +1,6 @@
 var navLogo  = document.getElementsByClassName("nav_logo")[0];
 var fullMenu = document.getElementsByClassName("full_menu")[0];
+
 // Forcing element styles
 fullMenu.style.left = "100%";
 navLogo.style.top = "40px";
@@ -13,6 +14,11 @@ function lerp(a, b, t)
 var id = null;
 var opening = false;
 function toggle_hamburger() {
+
+	var hamburger = document.querySelector(".hamburger");
+    hamburger.classList.toggle("is-active");
+
+
 	clearInterval(id);
 	var left = parseInt(fullMenu.style.left.slice(0, -1));
 	var top = parseInt(navLogo.style.top.slice(0, -2));

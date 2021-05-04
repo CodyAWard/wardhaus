@@ -48,7 +48,7 @@ width: 85px;
 
 
 .nav_menu {
-padding: 20px 0px 0px 15px;
+padding: 20px 5px 2px 15px;
 position: fixed;
 top: 35px;
 right: 0px;
@@ -139,7 +139,167 @@ flex: 100%;
 background-image: url(assets/img/hero_1.svg);
 background-repeat: no-repeat;
 background-position-x: right;
-background-size: contain;
+background-size: auto 60%;
+}
+
+
+.cards_region {
+display: flex;
+margin: -1%;
+margin-top: 20px;
+}
+
+
+.card_contents {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 28%;
+}
+
+
+.card_background {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+}
+
+
+.yellow_card {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+background: linear-gradient(to right,#f4b41b 33%,#e6482e 33%,#e6482e 66%,#f47e1b 66%);
+background-position: 0%;
+background-size: 1000%, 100%;
+}
+
+
+.yellow_card:hover {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+transition: all 1.0s cubic-bezier(0.000, 0.000, 0.230, 1);
+background-position: -33%;
+}
+
+
+.yellow_card:active {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+transition: all 0.5s cubic-bezier(0.000, 0.000, 0.230, 1);
+background-position: -66%;
+}
+
+
+.blue_card {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+background: linear-gradient(to right,#28ccdf 33%,#394778 33%,#394778 66%,#3978a8 66%);
+background-position: 0%;
+background-size: 1000%, 100%;
+}
+
+
+.blue_card:hover {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+transition: all 1.0s cubic-bezier(0.000, 0.000, 0.230, 1);
+background-position: -33%;
+}
+
+
+.blue_card:active {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+transition: all 0.5s cubic-bezier(0.000, 0.000, 0.230, 1);
+background-position: -66%;
+}
+
+
+.pink_card {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+background: linear-gradient(to right,#cd6093 33%,#39314b 33%,#39314b 66%,#564064 66%);
+background-position: 0%;
+background-size: 1000%, 100%;
+}
+
+
+.pink_card:hover {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+transition: all 1.0s cubic-bezier(0.000, 0.000, 0.230, 1);
+background-position: -33%;
+}
+
+
+.pink_card:active {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+transition: all 0.5s cubic-bezier(0.000, 0.000, 0.230, 1);
+background-position: -66%;
+}
+
+
+.green_card {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+background: linear-gradient(to right,#b6d53c 33%,#397b44 33%,#397b44 66%,#71aa34 66%);
+background-position: 0%;
+background-size: 1000%, 100%;
+}
+
+
+.green_card:hover {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+transition: all 1.0s cubic-bezier(0.000, 0.000, 0.230, 1);
+background-position: -33%;
+}
+
+
+.green_card:active {
+width: 25%;
+height: 0;
+margin: 1%;
+padding-bottom: 23%;
+box-shadow: 0px 10px 10px #00000035;
+transition: all 0.5s cubic-bezier(0.000, 0.000, 0.230, 1);
+background-position: -66%;
 }
 
 
