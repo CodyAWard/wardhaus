@@ -1,162 +1,155 @@
-<!DOCTYPE HTML>
-<html lang="en">
-	<head> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
-		<title>wardhaus</title>
+<!doctype html>
+<html lang = "en">
+   <head>
+   <meta charset="utf - 8">
+   <title>WardHaus</title>
+   <meta name = "description" content = "WardHaus HomePage">
+   <meta name = "author" content = "WardHaus">
+   <link rel="stylesheet" href="styles.css">
 
-		<!-- FONTS -->
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="hamburger.css">
 
-	</head>
-	<body id="body">
-	
-		<div id="header">
 
-			<!-- Home Link -->
-			<a href=""> 
-				<img id="header_logo" src="assets/logo.svg" alt="WardHaus 'WH' Logo">
-			<a >
-		
-		</div>
+   <body>
+       <div class="full_menu">
+   <div class="container">
+   <div style="margin: auto; height:25%">
+</div>
 
-		<div id="hero">
-			<div class="user-item">
-				<a class="user-img" href="http://www.christinesaul.com">
-					<img class="user-img user-img-shadow" src="assets/christine_headshot.png" alt="Christine Headshot">
-				</a>
-					<br/>
-				<a class="poppins-reg title">Christine Ward</a>
-					<br/>
-				<a class="poppins-reg sub-title">Graphic Designer</a>
-			</div>
+   <div class="full_menu_content">
+   <div class="col_100">
+   <hamcaps style="color:#ffffff70;">WARDHAUS<br/></hamcaps>
+   <ham1 style="color:#ffffff;">about + contact<br/></ham1>
+   <ham1 style="color:#ffffff;">our blog<br/></ham1>
+   <ham1 style="color:#ffffff;">creative haus<br/></ham1>
+   <ham1 style="color:#ffffff;">dev haus<br/></ham1>
+</div>
 
-			<div class="user-item">
-				<a class="user-img" href="https://codyward.itch.io">
-					<img class="user-img user-img-shadow" src="assets/cody_headshot.png" alt="Cody Headshot">
-				</a>
-					<br/>
-				<a class="poppins-reg title">Cody Ward</a>
-					<br/>
-				<a class="poppins-reg sub-title">Software & Game Developer</a>
-			</div>
-		</div>
+   <div class="col_20">
+   <hamcaps style="color:#ffffff70;">OUR APPS<br/></hamcaps>
+   <ham2 style="color:#ffffff;">type<br/></ham2>
+   <ham2 style="color:#ffffff;">card<br/></ham2>
+   <ham2 style="color:#ffffff;">vector<br/></ham2>
+   <ham2 style="color:#ffffff;">pallete<br/></ham2>
+</div>
 
-		<div>
-			<img id="footer_logo" src="assets/wardhaus.svg" alt="WardHaus Full Logo">
-		</div>
+</div>
 
-	</body>
-</html>
+</div>
 
-<style type="text/css">
+</div>
 
-	.poppins-reg
-	{
-		font-family: 'Poppins', sans-serif;
-		font-weight: 400
-	}
 
-	.title
-	{
-		font-size: 40px;
-		line-height: 50px;
-		letter-spacing: 1%;
-		color: white;
-		text-transform: lowercase;
-	}
+<div class="hero_light">
+   <div class="hero_image_main">
+   <a class="nav_logo" href="index.html" >
+   <img src="assets/img/logo.svg" alt="WardHaus logo" style="width: 85px; ;">
+</a>
 
-	.sub-title
-	{
-		font-size: 18px;
-		line-height: 28px;
-		letter-spacing: 1%;
-		color: white;
-		text-transform: uppercase;
-	}
+   <a class="nav_menu"  onclick="toggle_hamburger()">
+   <div class="hamburger hamburger--spring">
+   <div class="hamburger-box">
+   <div class="hamburger-inner">
+</div>
 
-	#body
-	{
-		background-color: #3A38AF;
-	}
+</div>
 
-	#header
-	{
-		height: 85px;
-		padding-top: 30px;
-	}
+</div>
 
-	#header_logo
-	{
-		height:100%;
-		padding-left: 30px;
-	}
+</a>
 
-	#hero
-	{
-		display: flex;
-		align-items: center;
-	}
+   <div style="margin: auto; height:200px">
+</div>
 
-	.user-item
-	{
-		flex-grow: 1;
-		text-align: center;
-		margin-top: 50px;
-	}
+   <div class="container">
+   <div class="row_flex">
+   <div class="col_60">
+   <caps style="color:#ffffff;">WELCOME TO OUR</caps>
+   <h1 style="color:#ffffff;">creative home</h1>
+   <copy style="color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget erat eget sem elementum vehicula. Nullam sit amet tellus eu lacus porta cursus. Nullam aliquet</copy>
+</div>
 
-	.user-img
-	{
-		display: flex;
-		justify-content: center;
-		width: 150px;
-		height: 150px;
-	    border-radius:50%;
-	    margin: 0 auto
-	}
+   <div class="col_50">
+</div>
 
-	.user-img-shadow
-	{
-	    box-shadow: -20px 20px 60px 0px #000023;
-	}
+</div>
 
-	#footer_logo
-	{
-		position: fixed;
-		bottom: 0;
-		left: -8px;
-		width: 105%;
-		z-index: -1;
-	}
+   <div style="margin: auto; height:120px">
+</div>
 
-	@media screen and (max-width: 768px) 
-	{
-		#hero 
-		{
-			flex-direction: column;
-		}
+   <lead style="color:#ffffff;">A Haus For All Our Things</lead>
+   <div class="cards_region">
+   <a class="yellow_card"  onclick="">
+   <div class="card_contents">
+   <img src="assets/img/ch_logo.svg" alt="Creative Haus - CH Logo" style="width: 50%; ;">
+</div>
 
-		.user-img
-		{
-			width: 100px;
-			height: 100px;
-		}
+</a>
 
-		#footer_logo
-		{
-			width: 205%;
-		}
+   <a class="blue_card"  onclick="">
+   <div class="card_contents">
+   <img src="assets/img/ch_logo.svg" alt="Creative Haus - CH Logo" style="width: 50%; ;">
+</div>
 
-		.title
-		{
-			font-size: 30px;
-			line-height: 40px;
-		}
+</a>
 
-		.sub-title
-		{
-			font-size: 12px;
-			line-height: 18px;
-		}
-	}
+   <a class="pink_card"  onclick="">
+   <div class="card_contents">
+   <img src="assets/img/ch_logo.svg" alt="Creative Haus - CH Logo" style="width: 50%; ;">
+</div>
 
-</style>
+</a>
+
+   <a class="green_card"  onclick="">
+   <div class="card_contents">
+   <img src="assets/img/ch_logo.svg" alt="Creative Haus - CH Logo" style="width: 50%; ;">
+</div>
+
+</a>
+
+</div>
+
+   <div style="margin: auto; height:120px">
+</div>
+
+   <div class="row_flex">
+   <div class="col_50">
+   <caps style="color:#ffffff;">WE ARE THE WARD'S</caps>
+   <h2 style="color:#ffffff;">we love creating
+digital spaces</h2>
+</div>
+
+   <div class="col_50">
+   <copy style="color:#ffffff;">This section will be about wardhaus & what it is. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget erat eget sem elementum vehicula. Nullam sit amet tellus eu lacus porta cursus. Nullam aliquet, ipsum eu congue accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget erat eget sem elementum vehicula. Nullam sit amet tellus eu lacus porta cursus. Nullam aliquet, ipsum eu congue accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget erat eget sem elementum vehicula.</copy>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div style="margin: auto; height:500px">
+</div>
+
+
+<div class="footer">
+   <div style="margin: auto; height:25%">
+</div>
+
+   <img src="assets/img/full_logo.svg" alt="WardHaus logo" style=" height: 50%;;">
+   <div class="footer_text">
+   <footer_copy style="color:#ffffff;">©2021 hand crafted by christine + cody</footer_copy>
+</div>
+
+</div>
+
+
+
+   </body>
+   </head>
+</html><script src="src/scripts/index.js">
+</script>
