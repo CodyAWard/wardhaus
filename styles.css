@@ -43,7 +43,7 @@ box-shadow: 0px 25px 30px #00000045;
 position: absolute;
 top: 40px;
 left: 50px;
-width: 85px;
+width: 80px;
 }
 
 
@@ -53,8 +53,8 @@ position: fixed;
 top: 35px;
 right: 0px;
 left: auto;
-height: 40px;
 width: 70px;
+height: 40px;
 background-color: #e6482e;
 box-shadow: 3px 3px 15px #00000035;
 cursor: pointer;
@@ -176,7 +176,7 @@ box-shadow: 0px 10px 10px #00000035;
 background: linear-gradient(to right,#f4b41b 33%,#e6482e 33%,#e6482e 66%,#f47e1b 66%);
 background-position: 0%;
 transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
-background-size: 1000%, 100%;
+background-size: 1000% 100%;
 }
 
 
@@ -211,7 +211,7 @@ box-shadow: 0px 10px 10px #00000035;
 background: linear-gradient(to right,#28ccdf 33%,#394778 33%,#394778 66%,#3978a8 66%);
 background-position: 0%;
 transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
-background-size: 1000%, 100%;
+background-size: 1000% 100%;
 }
 
 
@@ -246,7 +246,7 @@ box-shadow: 0px 10px 10px #00000035;
 background: linear-gradient(to right,#cd6093 33%,#8e478c 33%,#8e478c 66%,#ffaeb6 66%);
 background-position: 0%;
 transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
-background-size: 1000%, 100%;
+background-size: 1000% 100%;
 }
 
 
@@ -281,7 +281,7 @@ box-shadow: 0px 10px 10px #00000035;
 background: linear-gradient(to right,#b6d53c 33%,#397b44 33%,#397b44 66%,#71aa34 66%);
 background-position: 0%;
 transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
-background-size: 1000%, 100%;
+background-size: 1000% 100%;
 }
 
 
@@ -365,7 +365,7 @@ h2 {
 font-family: poppins-light;
 font-size: 50px;
 line-height: 50px;
-letter-spacing: 0.02em;
+letter-spacing: 0.002em;
 margin-bottom: 0px;
 margin-top: 5px;
 }
@@ -393,14 +393,14 @@ letter-spacing: 0.00em;
 }
 
 copy {
-font-family: merri-r;
+font-family: poppins-light;
 font-size: 14px;
 line-height: 28px;
 letter-spacing: 0.02em;
 }
 
 small_copy {
-font-family: merri-r;
+font-family: poppins-light;
 font-size: 14px;
 line-height: 28px;
 letter-spacing: 0.02em;
@@ -413,32 +413,63 @@ line-height: 40px;
 letter-spacing: 0.02em;
 }
 
+.hamLink {
+text-decoration: none;
+background: linear-gradient(to right,#ffffff 33%,#ffffff 33%,#ffffff 66%,#ffffff 66%);
+background-position: 0%;
+transition: all 0.3s cubic-bezier(0.000, 0.000, 0.000, 2);
+background-size: 1000% 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+background-clip: text;
+-webkit-background-clip: text;
+text-fill-color: transparent;
+-webkit-text-fill-color: transparent;
+}
+
+
+.hamLink:hover {
+text-decoration: none;
+transition: all 0.3s cubic-bezier(0.000, 0.000, 0.000, 2);
+background-position: -33%;
+font-weight: 900;
+}
+
+
+.hamLink:active {
+text-decoration: none;
+transition: all 0.3s cubic-bezier(0.000, 0.000, 0.000, 2);
+background-position: -66%;
+font-weight: 900;
+}
+
+
 hamcaps {
 font-family: poppins-light;
 font-size: 20;
 line-height: 34px;
-letter-spacing: 0.30em;
+letter-spacing: 0.3em;
 white-space: nowrap;
 }
 
 
 ham1 {
 font-family: poppins-light;
-font-size: 35px;
+font-size: 32px;
 line-height: 100px;
 letter-spacing: 0.02em;
 margin-bottom: 0px;
-margin-top: 5px;
+top: 5px;
 }
 
 
 ham2 {
 font-family: poppins-thin;
-font-size: 30px;
+font-size: 28px;
 line-height: 100px;
 letter-spacing: 0.02em;
 margin-bottom: 0px;
-margin-top: 5px;
+top: 5px;
 }
 
 
