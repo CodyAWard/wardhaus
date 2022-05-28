@@ -307,51 +307,15 @@ background-position: -66%;
 }
 
 
-@font-face {
-font-family: poppins-semibold;
-src: url(assets/fonts/poppins/Poppins-SemiBold.ttf);
-font-weight: normal;
-}
-
-@font-face {
-font-family: poppins-regular;
-src: url(assets/fonts/poppins/Poppins-Regular.ttf);
-font-weight: normal;
-}
-
-@font-face {
-font-family: poppins-medium;
-src: url(assets/fonts/poppins/Poppins-Medium.ttf);
-font-weight: normal;
-}
-
-@font-face {
-font-family: poppins-light;
-src: url(assets/fonts/poppins/Poppins-ExtraLight.ttf);
-font-weight: normal;
-}
-
-@font-face {
-font-family: poppins-thin;
-src: url(assets/fonts/poppins/Poppins-Thin.ttf);
-font-weight: normal;
-}
-
-@font-face {
-font-family: merri-r;
-src: url(assets/fonts/merriweather/Merriweather-Regular.ttf);
-font-weight: normal;
-}
-
 caps {
-font-family: poppins-medium;
+font-family: nimbus-sans;
 font-size: 20px;
 line-height: 30px;
 letter-spacing: 0.30em;
 }
 
 h1 {
-font-family: poppins-light;
+font-family: bookmania;
 font-size: 70px;
 line-height: 80px;
 letter-spacing: 0.02em;
@@ -362,7 +326,7 @@ white-space: nowrap;
 
 
 h2 {
-font-family: poppins-light;
+font-family: nimbus-sans;
 font-size: 50px;
 line-height: 50px;
 letter-spacing: 0.002em;
@@ -372,42 +336,42 @@ margin-top: 5px;
 
 
 h3 {
-font-family: poppins-regular;
+font-family: nimbus-sans;
 font-size: 40px;
 line-height: 50px;
 letter-spacing: 0.01em;
 }
 
 h5 {
-font-family: poppins-regular;
+font-family: nimbus-sans;
 font-size: 28px;
 line-height: 34px;
 letter-spacing: 0.02em;
 }
 
 lead {
-font-family: poppins-regular;
+font-family: nimbus-sans;
 font-size: 22px;
 line-height: 30px;
 letter-spacing: 0.00em;
 }
 
 copy {
-font-family: poppins-light;
+font-family: nimbus-sans;
 font-size: 14px;
 line-height: 28px;
 letter-spacing: 0.02em;
 }
 
 small_copy {
-font-family: poppins-light;
+font-family: nimbus-sans;
 font-size: 14px;
 line-height: 28px;
 letter-spacing: 0.02em;
 }
 
 footer_copy {
-font-family: poppins-light;
+font-family: nimbus-sans;
 font-size: 14px;
 line-height: 40px;
 letter-spacing: 0.02em;
@@ -445,7 +409,7 @@ font-weight: 900;
 
 
 hamcaps {
-font-family: poppins-light;
+font-family: nimbus-sans;
 font-size: 20;
 line-height: 34px;
 letter-spacing: 0.3em;
@@ -454,7 +418,7 @@ white-space: nowrap;
 
 
 ham1 {
-font-family: poppins-light;
+font-family: nimbus-sans;
 font-size: 32px;
 line-height: 100px;
 letter-spacing: 0.02em;
@@ -464,7 +428,7 @@ top: 5px;
 
 
 ham2 {
-font-family: poppins-thin;
+font-family: nimbus-sans;
 font-size: 28px;
 line-height: 100px;
 letter-spacing: 0.02em;
